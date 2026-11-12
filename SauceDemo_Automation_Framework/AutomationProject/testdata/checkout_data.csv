@@ -1,0 +1,5 @@
+case_id,first_name,last_name,postal_code,expected
+FR14_4_DIGITS,Lab,Tester,1234,invalid
+FR14_5_DIGITS,Lab,Tester,12345,valid
+FR14_6_DIGITS,Lab,Tester,123456,valid
+FR14_NON_NUMERIC,Lab,Tester,AB12X,invalid

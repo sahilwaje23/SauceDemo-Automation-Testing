@@ -1,0 +1,5 @@
+label,samples,errors,error_percent,mean_ms,p95_ms
+Application CSS bundle,20,0,0.000,314.4,650
+Application JavaScript bundle,20,0,0.000,1657.5,3393
+Login page document (GET /),8565,0,0.000,173.8,451
+Products app shell (GET / with session cookie),8555,0,0.000,174.8,455

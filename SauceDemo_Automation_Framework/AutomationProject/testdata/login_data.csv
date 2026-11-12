@@ -1,0 +1,7 @@
+case_id,username,password,expected
+FR02,standard_user,wrong_password,error
+FR03,,secret_sauce,error
+FR04,standard_user,,error
+FR05_29,12345678901234567890123456789,secret_sauce,error
+FR05_30,123456789012345678901234567890,secret_sauce,error
+FR05_31,1234567890123456789012345678901,secret_sauce,error

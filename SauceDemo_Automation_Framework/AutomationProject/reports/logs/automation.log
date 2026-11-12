@@ -1,0 +1,190 @@
+2026-11-05 11:46:18,089 | INFO | conftest | START tests/test_cart.py::test_fr11_checkout_opens_your_information_page
+2026-11-05 11:46:29,662 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:46:30,043 | INFO | ProductsPage | Click ('css selector', '.shopping_cart_link')
+2026-11-05 11:46:30,169 | INFO | CartPage | Click ('id', 'checkout')
+2026-11-05 11:46:30,328 | INFO | conftest | PASS tests/test_cart.py::test_fr11_checkout_opens_your_information_page
+2026-11-05 11:46:34,190 | INFO | conftest | START tests/test_checkout.py::test_fr12_blank_first_name_error
+2026-11-05 11:46:40,014 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:46:40,415 | INFO | ProductsPage | Click ('css selector', '.shopping_cart_link')
+2026-11-05 11:46:40,538 | INFO | CartPage | Click ('id', 'checkout')
+2026-11-05 11:46:41,104 | INFO | CheckoutPage | Click ('id', 'continue')
+2026-11-05 11:46:41,261 | INFO | conftest | PASS tests/test_checkout.py::test_fr12_blank_first_name_error
+2026-11-05 11:46:44,731 | INFO | conftest | START tests/test_checkout.py::test_fr13_blank_last_name_error
+2026-11-05 11:46:59,167 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:46:59,539 | INFO | ProductsPage | Click ('css selector', '.shopping_cart_link')
+2026-11-05 11:46:59,693 | INFO | CartPage | Click ('id', 'checkout')
+2026-11-05 11:47:00,212 | INFO | CheckoutPage | Click ('id', 'continue')
+2026-11-05 11:47:00,377 | INFO | conftest | PASS tests/test_checkout.py::test_fr13_blank_last_name_error
+2026-11-05 11:47:03,998 | INFO | conftest | START tests/test_checkout.py::test_fr14_postal_boundaries[FR14_4_DIGITS]
+2026-11-05 11:47:08,786 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:47:09,152 | INFO | ProductsPage | Click ('css selector', '.shopping_cart_link')
+2026-11-05 11:47:09,283 | INFO | CartPage | Click ('id', 'checkout')
+2026-11-05 11:47:09,772 | INFO | CheckoutPage | Click ('id', 'continue')
+2026-11-05 11:47:10,504 | INFO | conftest | FAIL tests/test_checkout.py::test_fr14_postal_boundaries[FR14_4_DIGITS]
+2026-11-05 11:47:10,606 | ERROR | conftest | Failure screenshot saved: C:\Users\Sahil\Documents\Codex\2026-11-05\give-x20\outputs\SauceDemo_Automation_Framework\AutomationProject\reports\screenshots\test_fr14_postal_boundaries[FR14_4_DIGITS].png
+2026-11-05 11:47:14,076 | INFO | conftest | START tests/test_checkout.py::test_fr14_postal_boundaries[FR14_5_DIGITS]
+2026-11-05 11:47:18,292 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:47:18,651 | INFO | ProductsPage | Click ('css selector', '.shopping_cart_link')
+2026-11-05 11:47:18,793 | INFO | CartPage | Click ('id', 'checkout')
+2026-11-05 11:47:19,300 | INFO | CheckoutPage | Click ('id', 'continue')
+2026-11-05 11:47:19,449 | INFO | conftest | PASS tests/test_checkout.py::test_fr14_postal_boundaries[FR14_5_DIGITS]
+2026-11-05 11:47:22,871 | INFO | conftest | START tests/test_checkout.py::test_fr14_postal_boundaries[FR14_6_DIGITS]
+2026-11-05 11:47:29,722 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:47:30,076 | INFO | ProductsPage | Click ('css selector', '.shopping_cart_link')
+2026-11-05 11:47:30,197 | INFO | CartPage | Click ('id', 'checkout')
+2026-11-05 11:47:30,780 | INFO | CheckoutPage | Click ('id', 'continue')
+2026-11-05 11:47:30,950 | INFO | conftest | PASS tests/test_checkout.py::test_fr14_postal_boundaries[FR14_6_DIGITS]
+2026-11-05 11:47:34,358 | INFO | conftest | START tests/test_checkout.py::test_fr14_postal_boundaries[FR14_NON_NUMERIC]
+2026-11-05 11:47:38,645 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:47:39,027 | INFO | ProductsPage | Click ('css selector', '.shopping_cart_link')
+2026-11-05 11:47:39,137 | INFO | CartPage | Click ('id', 'checkout')
+2026-11-05 11:47:39,625 | INFO | CheckoutPage | Click ('id', 'continue')
+2026-11-05 11:47:39,766 | INFO | conftest | FAIL tests/test_checkout.py::test_fr14_postal_boundaries[FR14_NON_NUMERIC]
+2026-11-05 11:47:39,893 | ERROR | conftest | Failure screenshot saved: C:\Users\Sahil\Documents\Codex\2026-11-05\give-x20\outputs\SauceDemo_Automation_Framework\AutomationProject\reports\screenshots\test_fr14_postal_boundaries[FR14_NON_NUMERIC].png
+2026-11-05 11:47:43,374 | INFO | conftest | START tests/test_checkout.py::test_fr15_valid_checkout_info_opens_overview
+2026-11-05 11:47:46,789 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:47:47,143 | INFO | ProductsPage | Click ('css selector', '.shopping_cart_link')
+2026-11-05 11:47:47,293 | INFO | CartPage | Click ('id', 'checkout')
+2026-11-05 11:47:47,792 | INFO | CheckoutPage | Click ('id', 'continue')
+2026-11-05 11:47:47,969 | INFO | conftest | PASS tests/test_checkout.py::test_fr15_valid_checkout_info_opens_overview
+2026-11-05 11:47:51,775 | INFO | conftest | START tests/test_checkout.py::test_fr16_finish_order_shows_success
+2026-11-05 11:47:54,631 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:47:54,951 | INFO | ProductsPage | Click ('css selector', '.shopping_cart_link')
+2026-11-05 11:47:55,081 | INFO | CartPage | Click ('id', 'checkout')
+2026-11-05 11:47:55,586 | INFO | CheckoutPage | Click ('id', 'continue')
+2026-11-05 11:47:55,720 | INFO | CheckoutPage | Click ('id', 'finish')
+2026-11-05 11:47:55,885 | INFO | conftest | PASS tests/test_checkout.py::test_fr16_finish_order_shows_success
+2026-11-05 11:47:59,480 | INFO | conftest | START tests/test_login.py::test_fr01_valid_login_redirects_to_products
+2026-11-05 11:48:03,103 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:48:03,383 | INFO | conftest | PASS tests/test_login.py::test_fr01_valid_login_redirects_to_products
+2026-11-05 11:48:06,815 | INFO | conftest | START tests/test_login.py::test_fr02_fr03_fr04_login_validation[FR02]
+2026-11-05 11:48:09,877 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:48:10,068 | INFO | conftest | PASS tests/test_login.py::test_fr02_fr03_fr04_login_validation[FR02]
+2026-11-05 11:48:13,500 | INFO | conftest | START tests/test_login.py::test_fr02_fr03_fr04_login_validation[FR03]
+2026-11-05 11:48:17,554 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:48:17,743 | INFO | conftest | PASS tests/test_login.py::test_fr02_fr03_fr04_login_validation[FR03]
+2026-11-05 11:48:21,222 | INFO | conftest | START tests/test_login.py::test_fr02_fr03_fr04_login_validation[FR04]
+2026-11-05 11:48:25,336 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:48:25,511 | INFO | conftest | PASS tests/test_login.py::test_fr02_fr03_fr04_login_validation[FR04]
+2026-11-05 11:48:28,995 | INFO | conftest | START tests/test_login.py::test_fr05_username_boundary_values[FR05_29]
+2026-11-05 11:48:33,397 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:48:33,570 | INFO | conftest | PASS tests/test_login.py::test_fr05_username_boundary_values[FR05_29]
+2026-11-05 11:48:36,971 | INFO | conftest | START tests/test_login.py::test_fr05_username_boundary_values[FR05_30]
+2026-11-05 11:48:42,654 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:48:42,842 | INFO | conftest | PASS tests/test_login.py::test_fr05_username_boundary_values[FR05_30]
+2026-11-05 11:48:46,577 | INFO | conftest | START tests/test_login.py::test_fr05_username_boundary_values[FR05_31]
+2026-11-05 11:48:49,566 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:48:49,736 | INFO | conftest | PASS tests/test_login.py::test_fr05_username_boundary_values[FR05_31]
+2026-11-05 11:48:53,184 | INFO | conftest | START tests/test_products.py::test_fr06_six_products_show_names_prices_and_add_buttons
+2026-11-05 11:48:56,953 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:48:57,709 | INFO | conftest | PASS tests/test_products.py::test_fr06_six_products_show_names_prices_and_add_buttons
+2026-11-05 11:49:01,211 | INFO | conftest | START tests/test_products.py::test_fr07_add_increments_badge_and_changes_button
+2026-11-05 11:49:05,299 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:49:05,895 | INFO | conftest | PASS tests/test_products.py::test_fr07_add_increments_badge_and_changes_button
+2026-11-05 11:49:09,429 | INFO | conftest | START tests/test_products.py::test_fr08_remove_decrements_badge_and_restores_button
+2026-11-05 11:49:13,495 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:49:14,267 | INFO | conftest | PASS tests/test_products.py::test_fr08_remove_decrements_badge_and_restores_button
+2026-11-05 11:49:18,117 | INFO | conftest | START tests/test_products.py::test_fr09_cart_shows_product_name_and_price
+2026-11-05 11:49:21,151 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:49:21,660 | INFO | ProductsPage | Click ('css selector', '.shopping_cart_link')
+2026-11-05 11:49:21,844 | INFO | conftest | PASS tests/test_products.py::test_fr09_cart_shows_product_name_and_price
+2026-11-05 11:49:25,284 | INFO | conftest | START tests/test_products.py::test_fr10_logout_blocks_inventory_access
+2026-11-05 11:49:28,429 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 11:49:28,582 | INFO | ProductsPage | Click ('id', 'react-burger-menu-btn')
+2026-11-05 11:49:28,755 | INFO | ProductsPage | Click ('id', 'logout_sidebar_link')
+2026-11-05 11:49:29,735 | INFO | conftest | PASS tests/test_products.py::test_fr10_logout_blocks_inventory_access
+2026-11-05 12:15:03,770 | INFO | conftest | START tests/test_cart.py::test_fr11_checkout_opens_your_information_page
+2026-11-05 12:15:07,609 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:15:07,807 | INFO | ProductsPage | Click ('css selector', '.shopping_cart_link')
+2026-11-05 12:15:07,874 | INFO | CartPage | Click ('id', 'checkout')
+2026-11-05 12:15:07,959 | INFO | conftest | PASS tests/test_cart.py::test_fr11_checkout_opens_your_information_page
+2026-11-05 12:15:11,474 | INFO | conftest | START tests/test_checkout.py::test_fr12_blank_first_name_error
+2026-11-05 12:15:14,763 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:15:15,009 | INFO | ProductsPage | Click ('css selector', '.shopping_cart_link')
+2026-11-05 12:15:15,089 | INFO | CartPage | Click ('id', 'checkout')
+2026-11-05 12:15:16,114 | INFO | CheckoutPage | Click ('id', 'continue')
+2026-11-05 12:15:16,282 | INFO | conftest | PASS tests/test_checkout.py::test_fr12_blank_first_name_error
+2026-11-05 12:15:19,659 | INFO | conftest | START tests/test_checkout.py::test_fr13_blank_last_name_error
+2026-11-05 12:15:23,760 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:15:24,047 | INFO | ProductsPage | Click ('css selector', '.shopping_cart_link')
+2026-11-05 12:15:24,149 | INFO | CartPage | Click ('id', 'checkout')
+2026-11-05 12:15:24,492 | INFO | CheckoutPage | Click ('id', 'continue')
+2026-11-05 12:15:24,649 | INFO | conftest | PASS tests/test_checkout.py::test_fr13_blank_last_name_error
+2026-11-05 12:15:28,048 | INFO | conftest | START tests/test_checkout.py::test_fr14_postal_boundaries[FR14_4_DIGITS]
+2026-11-05 12:15:33,197 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:15:33,485 | INFO | ProductsPage | Click ('css selector', '.shopping_cart_link')
+2026-11-05 12:15:33,600 | INFO | CartPage | Click ('id', 'checkout')
+2026-11-05 12:15:33,941 | INFO | CheckoutPage | Click ('id', 'continue')
+2026-11-05 12:15:34,204 | INFO | conftest | FAIL tests/test_checkout.py::test_fr14_postal_boundaries[FR14_4_DIGITS]
+2026-11-05 12:15:34,249 | ERROR | conftest | Failure screenshot saved: C:\Users\Sahil\Documents\Codex\2026-11-05\give-x20\outputs\SauceDemo_Automation_Framework\AutomationProject\reports\screenshots\test_fr14_postal_boundaries[FR14_4_DIGITS].png
+2026-11-05 12:15:37,636 | INFO | conftest | START tests/test_checkout.py::test_fr14_postal_boundaries[FR14_5_DIGITS]
+2026-11-05 12:15:40,909 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:15:41,174 | INFO | ProductsPage | Click ('css selector', '.shopping_cart_link')
+2026-11-05 12:15:41,280 | INFO | CartPage | Click ('id', 'checkout')
+2026-11-05 12:15:41,642 | INFO | CheckoutPage | Click ('id', 'continue')
+2026-11-05 12:15:41,732 | INFO | conftest | PASS tests/test_checkout.py::test_fr14_postal_boundaries[FR14_5_DIGITS]
+2026-11-05 12:15:45,080 | INFO | conftest | START tests/test_checkout.py::test_fr14_postal_boundaries[FR14_6_DIGITS]
+2026-11-05 12:15:48,100 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:15:48,358 | INFO | ProductsPage | Click ('css selector', '.shopping_cart_link')
+2026-11-05 12:15:48,450 | INFO | CartPage | Click ('id', 'checkout')
+2026-11-05 12:15:48,725 | INFO | CheckoutPage | Click ('id', 'continue')
+2026-11-05 12:15:48,806 | INFO | conftest | PASS tests/test_checkout.py::test_fr14_postal_boundaries[FR14_6_DIGITS]
+2026-11-05 12:15:52,239 | INFO | conftest | START tests/test_checkout.py::test_fr14_postal_boundaries[FR14_NON_NUMERIC]
+2026-11-05 12:15:59,223 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:15:59,425 | INFO | ProductsPage | Click ('css selector', '.shopping_cart_link')
+2026-11-05 12:15:59,495 | INFO | CartPage | Click ('id', 'checkout')
+2026-11-05 12:15:59,744 | INFO | CheckoutPage | Click ('id', 'continue')
+2026-11-05 12:15:59,825 | INFO | conftest | FAIL tests/test_checkout.py::test_fr14_postal_boundaries[FR14_NON_NUMERIC]
+2026-11-05 12:15:59,884 | ERROR | conftest | Failure screenshot saved: C:\Users\Sahil\Documents\Codex\2026-11-05\give-x20\outputs\SauceDemo_Automation_Framework\AutomationProject\reports\screenshots\test_fr14_postal_boundaries[FR14_NON_NUMERIC].png
+2026-11-05 12:16:03,364 | INFO | conftest | START tests/test_checkout.py::test_fr15_valid_checkout_info_opens_overview
+2026-11-05 12:16:06,067 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:16:06,252 | INFO | ProductsPage | Click ('css selector', '.shopping_cart_link')
+2026-11-05 12:16:06,314 | INFO | CartPage | Click ('id', 'checkout')
+2026-11-05 12:16:06,639 | INFO | CheckoutPage | Click ('id', 'continue')
+2026-11-05 12:16:06,769 | INFO | conftest | PASS tests/test_checkout.py::test_fr15_valid_checkout_info_opens_overview
+2026-11-05 12:16:10,216 | INFO | conftest | START tests/test_checkout.py::test_fr16_finish_order_shows_success
+2026-11-05 12:16:13,742 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:16:13,940 | INFO | ProductsPage | Click ('css selector', '.shopping_cart_link')
+2026-11-05 12:16:14,016 | INFO | CartPage | Click ('id', 'checkout')
+2026-11-05 12:16:14,290 | INFO | CheckoutPage | Click ('id', 'continue')
+2026-11-05 12:16:14,371 | INFO | CheckoutPage | Click ('id', 'finish')
+2026-11-05 12:16:14,480 | INFO | conftest | PASS tests/test_checkout.py::test_fr16_finish_order_shows_success
+2026-11-05 12:16:17,939 | INFO | conftest | START tests/test_login.py::test_fr01_valid_login_redirects_to_products
+2026-11-05 12:16:22,868 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:16:23,024 | INFO | conftest | PASS tests/test_login.py::test_fr01_valid_login_redirects_to_products
+2026-11-05 12:16:26,279 | INFO | conftest | START tests/test_login.py::test_fr02_fr03_fr04_login_validation[FR02]
+2026-11-05 12:16:29,161 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:16:29,264 | INFO | conftest | PASS tests/test_login.py::test_fr02_fr03_fr04_login_validation[FR02]
+2026-11-05 12:16:32,767 | INFO | conftest | START tests/test_login.py::test_fr02_fr03_fr04_login_validation[FR03]
+2026-11-05 12:16:37,067 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:16:37,195 | INFO | conftest | PASS tests/test_login.py::test_fr02_fr03_fr04_login_validation[FR03]
+2026-11-05 12:16:40,634 | INFO | conftest | START tests/test_login.py::test_fr02_fr03_fr04_login_validation[FR04]
+2026-11-05 12:16:46,695 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:16:46,787 | INFO | conftest | PASS tests/test_login.py::test_fr02_fr03_fr04_login_validation[FR04]
+2026-11-05 12:16:50,127 | INFO | conftest | START tests/test_login.py::test_fr05_username_boundary_values[FR05_29]
+2026-11-05 12:16:55,032 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:16:55,130 | INFO | conftest | PASS tests/test_login.py::test_fr05_username_boundary_values[FR05_29]
+2026-11-05 12:16:58,567 | INFO | conftest | START tests/test_login.py::test_fr05_username_boundary_values[FR05_30]
+2026-11-05 12:17:03,645 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:17:03,803 | INFO | conftest | PASS tests/test_login.py::test_fr05_username_boundary_values[FR05_30]
+2026-11-05 12:17:07,235 | INFO | conftest | START tests/test_login.py::test_fr05_username_boundary_values[FR05_31]
+2026-11-05 12:17:09,806 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:17:09,912 | INFO | conftest | PASS tests/test_login.py::test_fr05_username_boundary_values[FR05_31]
+2026-11-05 12:17:13,667 | INFO | conftest | START tests/test_products.py::test_fr06_six_products_show_names_prices_and_add_buttons
+2026-11-05 12:17:16,827 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:17:17,323 | INFO | conftest | PASS tests/test_products.py::test_fr06_six_products_show_names_prices_and_add_buttons
+2026-11-05 12:17:20,720 | INFO | conftest | START tests/test_products.py::test_fr07_add_increments_badge_and_changes_button
+2026-11-05 12:17:24,074 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:17:24,474 | INFO | conftest | PASS tests/test_products.py::test_fr07_add_increments_badge_and_changes_button
+2026-11-05 12:17:27,863 | INFO | conftest | START tests/test_products.py::test_fr08_remove_decrements_badge_and_restores_button
+2026-11-05 12:17:31,448 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:17:31,949 | INFO | conftest | PASS tests/test_products.py::test_fr08_remove_decrements_badge_and_restores_button
+2026-11-05 12:17:35,447 | INFO | conftest | START tests/test_products.py::test_fr09_cart_shows_product_name_and_price
+2026-11-05 12:17:38,899 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:17:39,201 | INFO | ProductsPage | Click ('css selector', '.shopping_cart_link')
+2026-11-05 12:17:39,336 | INFO | conftest | PASS tests/test_products.py::test_fr09_cart_shows_product_name_and_price
+2026-11-05 12:17:42,696 | INFO | conftest | START tests/test_products.py::test_fr10_logout_blocks_inventory_access
+2026-11-05 12:17:46,732 | INFO | LoginPage | Click ('id', 'login-button')
+2026-11-05 12:17:46,808 | INFO | ProductsPage | Click ('id', 'react-burger-menu-btn')
+2026-11-05 12:17:46,942 | INFO | ProductsPage | Click ('id', 'logout_sidebar_link')
+2026-11-05 12:17:49,016 | INFO | conftest | PASS tests/test_products.py::test_fr10_logout_blocks_inventory_access

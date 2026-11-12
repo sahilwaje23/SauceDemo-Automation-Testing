@@ -1,0 +1,22 @@
+Test Case ID,Requirement ID,Test Scenario,Test Data,Preconditions,Test Steps,Expected Result,Actual Result,Status,Testing Technique
+TC-01,FR-01,Valid login reaches Products,standard_user / secret_sauce,Login page open,Enter valid credentials and submit,Products page displayed,Products page displayed,PASS,Equivalence Partitioning
+TC-02,FR-02,Invalid password rejected,standard_user / wrong_password,Login page open,Enter invalid password and submit,Error displayed,Invalid credentials rejected with an error,PASS,Equivalence Partitioning
+TC-03,FR-03,Blank username rejected,blank / secret_sauce,Login page open,Submit blank username,Username error,Username required error displayed,PASS,Equivalence Partitioning
+TC-04,FR-04,Blank password rejected,standard_user / blank,Login page open,Submit blank password,Password error,Password required error displayed,PASS,Equivalence Partitioning
+TC-05A,FR-05,Username length 29,29 characters,Login page open,Submit 29-character username,Login rejected,Login rejected with error,PASS,Boundary Value Analysis
+TC-05B,FR-05,Username length 30,30 characters,Login page open,Submit 30-character username,Login rejected,Login rejected with error,PASS,Boundary Value Analysis
+TC-05C,FR-05,Username length 31,31 characters,Login page open,Submit 31-character username,Login rejected,Login rejected with error,PASS,Boundary Value Analysis
+TC-06,FR-06,At least six products show details,Catalogue,Authenticated,Inspect each product card,Names prices and Add controls for six products,Verified six products and required details,PASS,Equivalence Partitioning
+TC-07,FR-07,Add to cart updates badge,Sauce Labs Backpack,Authenticated,Add item and inspect badge and control,Badge increments and button becomes Remove,Badge incremented and button changed to Remove,PASS,Equivalence Partitioning
+TC-08,FR-08,Remove from cart restores state,Backpack and Bike Light,Authenticated,Add two items then remove one,Badge decrements and Add to cart restored,Badge decremented and button restored,PASS,Equivalence Partitioning
+TC-09,FR-09,Cart shows product name and price,Backpack,Authenticated,Add item and open cart,Cart name/price match catalogue,Cart details matched catalogue,PASS,Equivalence Partitioning
+TC-10,FR-10,Logout blocks inventory,standard_user,Authenticated,Logout then request inventory route,Redirect to login,Login shown and inventory blocked,PASS,Equivalence Partitioning
+TC-11,FR-11,Checkout opens information page,One cart item,Authenticated,Open cart then select Checkout,Your Information page,Checkout information page displayed,PASS,Equivalence Partitioning
+TC-12,FR-12,Blank first name rejected,blank / Tester / 12345,Information page,Submit information,First-name error,First-name required error displayed,PASS,Equivalence Partitioning
+TC-13,FR-13,Blank last name rejected,Lab / blank / 12345,Information page,Submit information,Last-name error,Last-name required error displayed,PASS,Equivalence Partitioning
+TC-14A,FR-14,Four-digit postal boundary,1234,Information page,Submit complete information,Rejected,AUT accepted and opened overview,FAIL - AUT deviation,Boundary Value Analysis
+TC-14B,FR-14,Five-digit postal boundary,12345,Information page,Submit complete information,Accepted and overview displayed,Accepted and overview displayed,PASS,Boundary Value Analysis
+TC-14C,FR-14,Six-digit postal boundary,123456,Information page,Submit complete information,Accepted and overview displayed,Accepted and overview displayed,PASS,Boundary Value Analysis
+TC-14D,FR-14,Non-numeric postal equivalence class,AB12X,Information page,Submit complete information,Rejected,AUT accepted and opened overview,FAIL - AUT deviation,Equivalence Partitioning
+TC-15,FR-15,Valid info opens checkout overview,Lab / Tester / 12345,Information page,Submit information,Checkout Overview,Checkout Overview displayed,PASS,Equivalence Partitioning
+TC-16,FR-16,Finish order success,Lab / Tester / 12345,Overview page,Select Finish,Order success message,Thank you for your order! displayed,PASS,Equivalence Partitioning
